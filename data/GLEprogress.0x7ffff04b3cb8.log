@@ -1,0 +1,36 @@
+Wed May 22 18:08:08 2013, (0 clock):	Start log file
+Wed May 22 18:08:08 2013, (10000 clock):	Parameters loaded.
+Wed May 22 18:08:08 2013, (10000 clock):	controls:
+  bounds:
+    - 2000
+    - 0
+  fixedElevationChange: 2
+state:
+  dimensions:
+    - 51
+    - 51
+  cell:
+    area: 1
+    width: 1000
+    length: 1000
+  initial:
+    filename: demRect.data
+    sourceType: PYRAMID
+objective:
+  - TEE
+  - EEL
+  - EE
+  - EEE
+hydrologicalParameters:
+  runoffCoeff: 1
+  rainfallExcess: 10
+constrain:
+  massConstrainEnabled: true
+  massVariationTolerance: 0.001
+interpolator:
+  parameters:
+    - 5
+    - 15
+    - 2
+  type: IDW
+Wed May 22 18:08:08 2013, (30000 clock):	Base DEM: TEE = 1.10449e+07, EEL = 2.93169e+06, EE = 44.1797, EEE = 4.69071e-05, 

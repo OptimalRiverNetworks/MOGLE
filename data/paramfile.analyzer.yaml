@@ -1,0 +1,24 @@
+# ---- ParamFile Example
+controls:
+    bounds: [1.0, -1.0]
+    fixedElevationChange: 100
+
+state:
+    dimensions: [25, 19]
+    cell:
+        area: 1
+        length: 1000
+        width: 1000
+    initial:
+        sourceType: DATAFILE
+        filename: demRect.data
+
+hydrologicalParameters:
+    runoffCoeff: 1.0
+    rainfallExcess: 0.1
+
+objective: [TEE, EEE, EE, TSP]
+
+constrain:
+    massConstrainEnabled: Yes
+    massVariationTolerance: 0.001 

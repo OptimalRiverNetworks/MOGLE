@@ -1,0 +1,4 @@
+#
+#   Running algorithm eNSGAII on 20000000 nfe, with population size of 50.0, with epsilon values [1000.0, 0.00000001], with pm set to 0.02, 20.0, with injection rate of 0.25, with sbx set to 1.0, 15.0, with 81 controls varying between 1.0 and 399.0 for cell (6,6).
+3 20 1 5 73 21 12 152 6 20 9 7 31 29 26 48 13 23 2 12 2 1 210 42 62 11 1 40 11 22 15 51 28 60 13 28 2 23 26 18 225 5 22 107 22 90 91 14 19 18 118 25 25 13 1 64 1 92 4 85 68 26 68 19 2 10 10 7 86 25 181 1 9 11 5 14 1 6 51 5 33 6143492.942254695 8.698644570080833E-12 0.0 
+#

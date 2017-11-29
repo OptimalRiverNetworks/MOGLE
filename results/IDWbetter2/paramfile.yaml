@@ -1,0 +1,32 @@
+# ---- ParamFile Example
+controls:
+    bounds: [200, 0]
+    fixedElevationChange: 200
+
+state:
+    dimensions: [51, 51]
+    cell:
+        area: 1
+        length: 1000
+        width: 1000
+    initial:
+        sourceType: PYRAMID
+        filename: demRect.data
+        basinLength: 20
+        shapeFactor: 0.75
+
+hydrologicalParameters:
+    runoffCoeff: 1.0
+    rainfallExcess: 10.0
+
+objective:
+    types: [TEE, EEL, EE, EEE]
+    drainedAreaThreshold: 4
+
+constrain:
+    massConstrainEnabled: Yes
+    massVariationTolerance: 0.01
+
+interpolator:
+    type: IDW
+    parameters: [5, 2.0]
