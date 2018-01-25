@@ -1,0 +1,7 @@
+
+
+## Building ##
+
+Navigate into the build folder, and type make to build libraries and the executable.
+
+It requires the libyaml-cpp.a library already compiled, you can retrieve the source code along with installation instructions at https://github.com/jbeder/yaml-cpp. Please note that this software uses the version 0.5.3, which is referred to as the new API (https://github.com/jbeder/yaml-cpp/releases/tag/release-0.5.3).
